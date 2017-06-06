@@ -1,0 +1,35 @@
+<html>
+<head>
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+<h1>Night-time List:</h1>
+
+<div id="app-1">
+    <button v-on:click="next">Next</button>
+    <p id="nT">{{ message }}</p>
+    <button v-on:click="reset">Reset</button>
+</div>
+<hr />
+<p>
+My 7 year old son wanted me to write a program that would go through our night-time routine list (I'm not making this up). Here's the result.
+</p>
+
+<p>
+I thought it was fun to put an <code>if</code> statement to see if <code>myNumber</code> was greater than the length of the list and then print out a final message.
+</p>
+
+<p>
+After looking at the program with me, my son asked if we could add another button to start the list over again. I then wrote another Vue method with a function that reset <code>myNumber</code> to 0 (the beginning of the list).
+</p>
+
+<p>
+Note: It's not obvious right away from reading the javascript code, but the Vue 2.2.1 framework is being called in. That can be seen by clicking on the Javascript "gear" icon within jsFiddle.
+</p>
+
+</body>
+</html>
