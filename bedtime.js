@@ -10,7 +10,6 @@ var nightList = [
 
 var myNumber = 0;
 
-window.addEventListener('load', function () { // needs this to wait until DOM
   var app1 = new Vue({
     el: '#app-1',
     data: {
@@ -30,4 +29,3 @@ window.addEventListener('load', function () { // needs this to wait until DOM
       }
     }
   });
-})
